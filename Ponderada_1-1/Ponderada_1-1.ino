@@ -28,3 +28,15 @@ void loop() {
     Serial.print("Olá, ");
     Serial.println(nome);
     
+    //Vitor
+    // Condições if e if-else aninhadas
+    if (idade >= 18) {
+        if (temFilhos) {
+            Serial.println("Você é maior de idade e tem filhos.");
+        } else {
+            Serial.println("Você é maior de idade, mas não tem filhos.");
+        }
+    } else {
+        Serial.println("Você é menor de idade.");
+    }
+    
