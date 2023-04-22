@@ -48,3 +48,15 @@ void loop() {
         Serial.println(esporteFavorito);
         delay(1000); // Aguarda 1 segundo antes de imprimir a próxima mensagem
     }
+
+    
+    
+    //Joao victor Montagna
+    //Condição IF ELSE
+    if (altura>=1.80){
+        Serial.println("Você é alto.");
+    }else{
+        Serial.println("Você não é tão alto!");
+    }
+    Serial.println(nome);
+    delay(5000); //Espera 5 segundos para reniciar o loop
