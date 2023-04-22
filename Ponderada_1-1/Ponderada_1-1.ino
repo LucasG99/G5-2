@@ -40,3 +40,11 @@ void loop() {
         Serial.println("Você é menor de idade.");
     }
     
+
+    // Luis Miranda
+    // Laço de repetição for
+    for (int i = 0; i < 3; i++) {
+        Serial.print("O seu esporte favorito é ");
+        Serial.println(esporteFavorito);
+        delay(1000); // Aguarda 1 segundo antes de imprimir a próxima mensagem
+    }
